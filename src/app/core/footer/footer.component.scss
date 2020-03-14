@@ -1,0 +1,13 @@
+@import './../../../mercado-livre-theme.scss';
+
+.footer{
+    font-size: 13px;
+    background-color: #fff;
+    border-top: thin;
+    bottom: auto;
+    
+    .button {
+        background-color: $ml-yellow;
+        margin-top: 2rem;
+    }
+}

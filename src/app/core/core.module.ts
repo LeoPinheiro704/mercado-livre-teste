@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+
 
 
 import { HeaderComponent } from './header/header.component';
@@ -17,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
         CommonModule,
         MatToolbarModule,
         MatInputModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        MatButtonModule
     ],
     exports: [
         HeaderComponent,
