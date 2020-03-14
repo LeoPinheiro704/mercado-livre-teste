@@ -1,0 +1,31 @@
+@import './../../../mercado-livre-theme.scss';
+
+.mat-toolbar {
+    background-color: $ml-yellow;
+    
+    .mat-toolbar-row {
+        margin-left: 5rem;
+
+        .logo img{
+            padding-top: .5rem;
+        }
+        
+        input {
+            width: 600px;
+            padding: 7px 60px 9px 15px;
+            margin-left: 2rem;
+            border-radius: 2px;
+            border: 0 rgba(0,0,0,.2);
+        }
+
+        input:focus, textarea:focus, select:focus{
+            outline: none;
+        }
+
+        input[type=text] {
+            font-size: 16px;
+            color: #333;
+        }
+    }
+    
+}

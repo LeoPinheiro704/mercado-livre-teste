@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,10 +16,12 @@ import { FooterComponent } from './footer/footer.component';
     imports: [
         CommonModule,
         MatToolbarModule,
+        MatInputModule,
+        ReactiveFormsModule
     ],
     exports: [
         HeaderComponent,
-        FooterComponent,
+        FooterComponent
     ],
 })
 export class  CoreModule { }

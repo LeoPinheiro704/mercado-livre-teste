@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'mercado-livre-teste';
+
+  public searchCallback(value: string): void {
+    // console.log(value);
+  }
+
+
 }

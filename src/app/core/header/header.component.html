@@ -1,8 +1,16 @@
 <mat-toolbar color="primary" class="mat-elevation-z3">
     <mat-toolbar-row>
-        <div>
-            <p>teste</p>
-        </div>
+        <picture class="logo" (click)="logoClicked()" matTooltip="Voltar para o início">
+            <img alt="Voltar para o início" src="./../../../assets/img/logo-pt__large_plus.png" />
+        </picture>
+        <input 
+            matInput 
+            class="mat-elevation-z1"
+            [formControl]="search"
+            placeholder="Buscar produtos, marcas e muito mais..." 
+            type="text">
     </mat-toolbar-row>
 </mat-toolbar>
+
+{{ search.value }}
   
